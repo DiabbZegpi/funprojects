@@ -7,16 +7,17 @@ Months ago I found on internet a smart way to estimate ![pi][pi] using geometry.
 
 > *"PI is the ratio of a circle's circumference to its diameter."*
 
-Imagine a circle inscribed in a square. The relationship between their areas is ![f1][areasratio], so we can isolate ![pi][pi] as ![f2][pi2]. Here comes the clever idea: 
+Imagine a circle inscribed in a square. The relationship between their areas is ![f1][areasratio], so we can isolate ![pi][pi] as ![f2][pi2]. 
 
-1. Imagine an inscribed circle into a square
-2. Paint the whole figure with small points
-3. Count the points that fell inside the circle. If the points cover the entire square, then **the painted area equals the area of the square**
-4. Replace the counts of points inside each figure in the formula of ![pi][pi] and calculate the estimator
-5. **Expect error**
+Here comes the clever idea: 
+
+1. Imagine an inscribed circle into a square.
+2. Paint the whole figure with small points.
+3. Count the points that fell inside the circle. If the points cover the entire square, then **the painted area equals the area of the square**.
+4. Replace the counts of points inside each figure in the formula of ![pi][pi] and calculate the estimator.
+5. **Expect error**. This way of estimation doesn't scale well.
 
 ![](https://github.com/DiabbZegpi/funprojects/blob/master/Pi%20estimator/combined_plot.png "Comparisson of pi estimations")
-
 
 [pi]: https://render.githubusercontent.com/render/math?math=%24%5Cpi%24
 [areasratio]: https://render.githubusercontent.com/render/math?math=%24%5Cfrac%7BA_%7Bcircle%7D%7D%7BA_%7Bsquare%7D%7D%3D%20%5Cfrac%7B%5Cpi%20r%5E2%7D%7B4r%5E2%7D%24
