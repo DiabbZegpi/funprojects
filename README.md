@@ -22,3 +22,14 @@ Here comes the clever idea:
 [pi]: https://render.githubusercontent.com/render/math?math=%24%5Cpi%24
 [areasratio]: https://render.githubusercontent.com/render/math?math=%24%5Cfrac%7BA_%7Bcircle%7D%7D%7BA_%7Bsquare%7D%7D%3D%20%5Cfrac%7B%5Cpi%20r%5E2%7D%7B4r%5E2%7D%24
 [pi2]:https://render.githubusercontent.com/render/math?math=%244%5Cfrac%7BA_%7Bcircle%7D%7D%7BA_%7Bsquare%7D%7D%24
+
+## Birthday paradox
+
+Let's imagine we enter a room with 30 unknown people (mayba a random university class). I'll tell you that at least two of them were born in the same day of the year. Woul you bet against me? What about 40? I'm giving you 10 to 1 odds on 60 people... The truth is this is a mathematic scam and I'll explain it to you:
+
+Let ![n][n] be the sample size (i.e. the number of people in a room) and ![p][p] the probability of 2 people sharing birthday out of ![n][n] people.
+
+
+[n]:https://render.githubusercontent.com/render/math?math=n
+[p]:https://render.githubusercontent.com/render/math?math=P_n
+
