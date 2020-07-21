@@ -41,7 +41,9 @@ If ![n4][n4] then ![p4][p4]
 
 Then, the probability of 2 people sharing birthday out of ![n][n] is: 
 
-![pn][pn]
+<img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;1-\prod_{i=2}^{n}\frac{366-i}{365}" title="1-\prod_{i=2}^{n}\frac{366-i}{365}" />
+
+
 
 
 [n]:https://render.githubusercontent.com/render/math?math=n
@@ -50,6 +52,5 @@ Then, the probability of 2 people sharing birthday out of ![n][n] is:
 [n4]:https://render.githubusercontent.com/render/math?math=n=4
 [p]:https://render.githubusercontent.com/render/math?math=P_n
 [p2]:https://render.githubusercontent.com/render/math?math=P_2=\frac{364}{365}
-[p3]:https://render.githubusercontent.com/render/math?math=P_3=\frac{364}{365}\frac{363}{364}=\frac{363}{365}
-[p4]:https://render.githubusercontent.com/render/math?math=P_4=\frac{364}{365}\frac{363}{364}\frac{362}{363}=\frac{362}{365}
-[pn]:https://render.githubusercontent.com/render/math?math=1-\frac{365-n+1}{365}
+[p3]:https://render.githubusercontent.com/render/math?math=P_3=\frac{364*363}{365^2}
+[p4]:https://render.githubusercontent.com/render/math?math=P_4=\frac{364*363*362}{365^3}
