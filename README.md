@@ -41,7 +41,7 @@ If ![n4][n4] then ![p4][p4]
 
 Then, the probability of 2 people sharing birthday out of ![n][n] is: 
 
-<p align="center;">![pn][pn]</p>
+<p style="text-align:center;">![pn][pn]</p>
 
 
 [n]:https://render.githubusercontent.com/render/math?math=n
