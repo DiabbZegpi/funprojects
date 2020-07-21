@@ -33,13 +33,15 @@ Assumptions:
 - All days are equally likely
 - No leap-year
 
-If ![n2][n2] then ![p2][p2].
+If ![n2][n2] then ![p2][p2]
+
 If ![n3][n3] then ![p3][p3]
+
 If ![n4][n4] then ![p4][p4]
 
 Then, the probability of 2 people sharing birthday out of ![n][n] is: 
 
-<p align="center";>![pn][pn]</p>
+<p align="center;">![pn][pn]</p>
 
 
 [n]:https://render.githubusercontent.com/render/math?math=n
@@ -50,4 +52,4 @@ Then, the probability of 2 people sharing birthday out of ![n][n] is:
 [p2]:https://render.githubusercontent.com/render/math?math=P_2=\frac{364}{365}
 [p3]:https://render.githubusercontent.com/render/math?math=P_3=\frac{364}{365}\frac{363}{364}=\frac{363}{365}
 [p4]:https://render.githubusercontent.com/render/math?math=P_4=\frac{364}{365}\frac{363}{364}\frac{362}{363}=\frac{362}{365}
-[pn]:https://render.githubusercontent.com/render/math?math=1-\frac{365-n}{365}
+[pn]:https://render.githubusercontent.com/render/math?math=1-\frac{365-n+1}{365}
