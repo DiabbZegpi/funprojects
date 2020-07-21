@@ -37,7 +37,7 @@ Let ![n][n] be the sample size (i.e. the number of people in a room) and ![p][p]
 
 So, what is the probability of finding 2 persons that share birthday out of 20 or more people?
 
-![](Birthday paradox/birthday_plot.png "Probability and Odds")
+<img src="Birthday paradox/birthday_plot.png" />
 
 [n]:https://render.githubusercontent.com/render/math?math=n
 [p]:https://render.githubusercontent.com/render/math?math=P_n
