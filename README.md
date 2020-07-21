@@ -27,9 +27,19 @@ Here comes the clever idea:
 
 Let's imagine we enter a room with 30 unknown people (mayba a random university class). I'll tell you that at least two of them were born in the same day of the year. Woul you bet against me? What about 40? I'm giving you 10 to 1 odds on 60 people... The truth is this is a mathematic scam and I'll explain it to you:
 
-Let ![n][n] be the sample size (i.e. the number of people in a room) and ![p][p] the probability of 2 people sharing birthday out of ![n][n] people.
+Let ![n][n] be the sample size (i.e. the number of people in a room) and ![p][p] the probability of 2 people **NOT sharing birthday** out of ![n][n] people.
+
+Assumptions:
+- All days are equally likely
+- No leap-year
+
+If ![n2][n2] then ![p2][p2].
+If ![n3][n3] then ![p3][p3]
 
 
 [n]:https://render.githubusercontent.com/render/math?math=n
+[n2]:https://render.githubusercontent.com/render/math?math=n=2
+[n3]:https://render.githubusercontent.com/render/math?math=n=3
 [p]:https://render.githubusercontent.com/render/math?math=P_n
-
+[p2]:https://render.githubusercontent.com/render/math?math=P_2=frac{364}{365}
+[p3]:https://render.githubusercontent.com/render/math?math=P_3=frac{364}{365}frac{363}{364}=frac{363}{365}
