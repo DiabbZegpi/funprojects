@@ -27,30 +27,15 @@ Here comes the clever idea:
 
 Let's imagine we enter a room with 30 unknown people (maybe a random university class). I'll tell you that at least two of them were born in the same day of the year. Would you bet against me? What about 40? I'm giving you 10 to 1 odds on 60 people... The truth is this is a mathematical scam and I'll explain it to you:
 
-Let ![n][n] be the sample size (i.e. the number of people in a room) and ![p][p] the probability of 2 people **NOT sharing birthday** out of ![n][n] people.
+Let ![n][n] be the sample size (i.e. the number of people in a room) and ![p][p] the probability of **2 people sharing birthday** out of ![n][n] people.
 
 Assumptions:
 - All days are equally likely
 - No leap-year
 
-If ![n2][n2] then ![p2][p2]
+Then, the probability of 2 people sharing birthday out of ![n][n] is <img src="https://latex.codecogs.com/gif.latex?P_n=1-\prod_{i=2}^{n}\frac{366-i}{365}" title="P_n=1-\prod_{i=2}^{n}\frac{366-i}{365}" />
 
-If ![n3][n3] then ![p3][p3]
-
-If ![n4][n4] then ![p4][p4]
-
-Then, the probability of 2 people sharing birthday out of ![n][n] is: 
-
-<img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;1-\prod_{i=2}^{n}\frac{366-i}{365}" title="1-\prod_{i=2}^{n}\frac{366-i}{365}" />
-
-
-
+So, what is the probability of finding 2 people that share birthday out of 20 and 60?
 
 [n]:https://render.githubusercontent.com/render/math?math=n
-[n2]:https://render.githubusercontent.com/render/math?math=n=2
-[n3]:https://render.githubusercontent.com/render/math?math=n=3
-[n4]:https://render.githubusercontent.com/render/math?math=n=4
 [p]:https://render.githubusercontent.com/render/math?math=P_n
-[p2]:https://render.githubusercontent.com/render/math?math=P_2=\frac{364}{365}
-[p3]:https://render.githubusercontent.com/render/math?math=P_3=\frac{364*363}{365^2}
-[p4]:https://render.githubusercontent.com/render/math?math=P_4=\frac{364*363*362}{365^3}
