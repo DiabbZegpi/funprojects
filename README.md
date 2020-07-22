@@ -26,6 +26,7 @@ Here comes the clever idea:
 [pi2]:https://render.githubusercontent.com/render/math?math=%244%5Cfrac%7BA_%7Bcircle%7D%7D%7BA_%7Bsquare%7D%7D%24
 
 ## Birthday paradox
+<img src="Birthday paradox/happy_birthday.png" width="1000px" />
 
 Let's imagine we enter a room with 30 unknown people (maybe a random university class). I'll tell you that at least two of them were born in the same day of the year. Would you bet against me? What about 40? I'm giving you 50 to 1 odds on 60 people! The truth is this is a mathematical scam and I'll explain it to you:
 
