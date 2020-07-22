@@ -3,6 +3,8 @@ This will be the headquarters of future curious projects. Here I'll post the vis
 
 ## Pi estimator
 
+<img src="Pi estimator/pi.png" width="1000px" />
+
 Months ago I found on internet a smart way to estimate ![pi][pi] using geometry. Whenever we see ![pi][pi] we have to think on circles, so the key is to elaborate a relationship between a circles' area or perimeter and other geometric figure.
 
 > *"PI is the ratio of a circle's circumference to its diameter."*
